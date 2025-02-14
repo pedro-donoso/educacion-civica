@@ -14,19 +14,19 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div
-      className="flex-1 w-full flex flex-col gap-12"
-      style={{
-        backgroundImage:
-          'url("https://definicion.de/wp-content/uploads/2008/07/imputabilidad.png")', // Reemplaza con tu URL
+    <div className="flex-1 w-full flex flex-col gap-12"
+     style={{
 
-        backgroundSize: "cover", // Asegura que la imagen cubra toda la pantalla
+        backgroundImage: 'url("https://definicion.de/wp-content/uploads/2008/07/imputabilidad.png")', // Reemplaza con tu URL
 
-        backgroundPosition: "center", // Centra la imagen
+        backgroundSize: 'cover', // Asegura que la imagen cubra toda la pantalla
 
-        backgroundRepeat: "no-repeat", // Evita que la imagen se repita
+        backgroundPosition: 'center', // Centra la imagen
 
-        minHeight: "100vh", // Asegura que el contenedor tenga al menos la altura de la ventana
+        backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
+
+        minHeight: '100vh', // Asegura que el contenedor tenga al menos la altura de la ventana
+
       }}
     >
       <div className="w-full">
