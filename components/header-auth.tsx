@@ -21,7 +21,7 @@ export default async function AuthButton() {
               variant={"default"}
               className="font-normal pointer-events-none"
             >
-              Please update .env.local file with anon key and url
+              {/* Please update .env.local file with anon key and url */}
             </Badge>
           </div>
           <div className="flex gap-2">
