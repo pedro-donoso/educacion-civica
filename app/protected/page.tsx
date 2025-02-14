@@ -14,7 +14,21 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-12">
+    <div
+      className="flex-1 w-full flex flex-col gap-12"
+      style={{
+        backgroundImage:
+          'url("https://definicion.de/wp-content/uploads/2008/07/imputabilidad.png")', // Reemplaza con tu URL
+
+        backgroundSize: "cover", // Asegura que la imagen cubra toda la pantalla
+
+        backgroundPosition: "center", // Centra la imagen
+
+        backgroundRepeat: "no-repeat", // Evita que la imagen se repita
+
+        minHeight: "100vh", // Asegura que el contenedor tenga al menos la altura de la ventana
+      }}
+    >
       <div className="w-full">
         <div className="bg-accent text-sm p-3 px-5 rounded-md text-foreground flex gap-3 items-center">
           <InfoIcon size="16" strokeWidth={2} />
