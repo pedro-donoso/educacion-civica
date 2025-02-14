@@ -18,13 +18,9 @@ export default async function ProtectedPage() {
      style={{
 
         backgroundImage: 'url("https://definicion.de/wp-content/uploads/2008/07/imputabilidad.png")', // Reemplaza con tu URL
-
         backgroundSize: 'cover', // Asegura que la imagen cubra toda la pantalla
-
         backgroundPosition: 'center', // Centra la imagen
-
         backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
-
         minHeight: '100vh', // Asegura que el contenedor tenga al menos la altura de la ventana
 
       }}
@@ -52,6 +48,9 @@ export default async function ProtectedPage() {
         <p>3. Al final del quiz, verás tu puntuación total.</p>
         <p>4. ¡Diviértete y aprende mientras juegas!</p>
       </div>
+
+
+
     </div>
   );
 }
